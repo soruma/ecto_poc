@@ -7,8 +7,7 @@ defmodule EctoPoc.Application do
 
   def start(_type, _args) do
     children = [
-      # Starts a worker by calling: EctoPoc.Worker.start_link(arg)
-      # {EctoPoc.Worker, arg}
+      EctoPoc.Repo
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
