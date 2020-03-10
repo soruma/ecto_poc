@@ -22,7 +22,7 @@ defmodule EctoPoc.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ecto, "~> 3.3"},
+      {:ecto_sql, "~> 3.3"},
       {:postgrex, "~> 0.15"}
     ]
   end
